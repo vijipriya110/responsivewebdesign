@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .flex-container{
+               display: flexbox;
+               background-color:yellowgreen;
+               border: 2px solid black;
+        }
+        .flex-container1{
+            display: flex;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: 25px;
+            padding: 25px;
+            background-color: rgb(105, 105, 87);
+        }
+        .row {
+            margin: 30px;
+            padding: 30px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color:wheat;
+        }
+
+        button{
+            background-color: aqua;
+        }
+
+        button:hover{
+            background-color: blue;
+        }
+    </style>
+    
+   
+</head>
+<body>
+    <div class="flex-container">
+
+        <h1 style="text-align: center;margin-top: 30PX;">EVENT-1</h1>
+
+         <p style="text-align:center;font-size: 30px;margin-bottom: 30px;"><b>Number of available seats: 23</b></p>
+
+            <div class="flex-container1">
+                <div class="row">
+                    <div class="image">
+                        <img src="https://slp-statics.astockcdn.net/static_assets/staging/23winter/home/fr/curated-collections/card-4.jpg?width=480&amp;format=webp" alt="image">
+                    </div>
+                </div>
+   
+                <div class="row">
+                    <div class="form">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter the name"><br>
+
+                    <label for="Phone Number">Phone Number :</label>
+                    <input type="number" id="Phone Number" placeholder="Enter the Phone number"><br>
+
+    
+                    <label for="Email">Email :</label>
+                    <input type="email" name="Email" id="Email" placeholder="Enter the E-mail id"><br>
+   
+                    <label for="seats">Number of seats :</label>
+                    <input type="number" name="seats" id="seats"><br>
+
+                    <br>
+
+                    <button onclick="foo()">submit</button> 
+   
+                     <button onclick="foo()">cancel</button> 
+
+                </div>
+
+            </div> 
+ 
+            
+
+   
+        
+    </div>
+
+   
+</body>
+</html>  
